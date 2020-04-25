@@ -25,3 +25,12 @@ var greaterThan = require("./greaterThan");
 //greaterThan takes in an array and the index of the array that you want to return the array after the index
 var greater = greaterThan([1, 2, 3, 4, 7, 6], 3);
 console.log(greater);
+
+//array of names
+var names = ["Joseph", "Tawil", "Farid"];
+
+var swapNames = require("./swapNames");
+//swapping index item 1 with index item 2
+//swap(arr,index, index2)
+var swap = swapNames(names, 1, 2);
+console.log(swap);
