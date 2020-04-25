@@ -13,4 +13,15 @@ var theSum = sumArray([1, 2, 3]);
 //we are printing theSum out onto the console
 console.log(theSum);
 
+var largestNum = require("./largestNum");
+var largest = largestNum([12, 18, 100, 76, 55]);
+console.log(largest);
 
+var smallestNum = require("./smallestNum");
+var smallest = smallestNum([100, 55, 4, 99]);
+console.log(smallest);
+
+var greaterThan = require("./greaterThan");
+//greaterThan takes in an array and the index of the array that you want to return the array after the index
+var greater = greaterThan([1, 2, 3, 4, 7, 6], 3);
+console.log(greater);
